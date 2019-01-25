@@ -1,0 +1,52 @@
+1. modify sql to create a new db and table
+init-sqlite.sql
+
+2. change the name of db in config.php 
+config.php
+
+3. If keep the same structure, do not change the link
+
+4. header: \public\templates\header.php
+title 
+Roboto style
+display developer's name
+body: h1 and h3
+
+5. footer:\public\templates\footer.php
+js
+bootstrap
+delete confirmation
+
+6.index.php:
+sql: Get all data (????column?3???:DB,????,????)
+bottun: bootstrap
+table: bootstrap; delete confirmation
+(seperate the total cost into a php page)
+
+7.create.php
+form
+client side validation(html validation): droplist; cost(number, min=0)
+more validation???
+Post
+server side validation: 1)repeat check 2)data check(cost and type)
+more validation ???
+sql: add
+send email:????emial??
+
+8.update.php
+Post:submit(old and new depend on requirement)
+repeat validation
+sql:update (server side validation)
+send email:????emial??
+GET:id
+Form: client side validation
+
+9.delete.php
+Get delete item's info(name) through id
+delete with confirmation
+send email:????emial??
+
+10. search.php
+
+
+

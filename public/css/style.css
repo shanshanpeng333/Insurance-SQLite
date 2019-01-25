@@ -1,0 +1,45 @@
+body{
+    margin: 0 auto;
+	color:#1B65D8;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1080px;
+    border: 2px solid #1B65D8;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+section{
+    border-top: 2px solid #1B65D8;
+    margin: 0 2em; 
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+	color:white;
+	text-decoration:none;
+}
+/*
+form{
+    text-align: center;
+}
+
+h2{
+	color:#852cff;
+}
+label {
+	display: block;
+	margin: 5px 0;
+}
+
+
+td,
+th {
+	color:#852cff;
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}*/
